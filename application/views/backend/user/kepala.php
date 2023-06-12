@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>PT. Metro Cilegon</title>
+        <title>PT. Metro Bekasi</title>
 
         <meta name="description" content="ProUI is a Responsive Bootstrap Admin Template created by pixelcave and published on Themeforest.">
         <meta name="author" content="pixelcave">
@@ -61,7 +61,7 @@
                         <div class="sidebar-content">
                             <!-- Brand -->
                             <a href="<?=base_url('user/dashboard')?>" class="sidebar-brand">
-                                <i class="fa fa-home"></i><span class="sidebar-nav-mini-hide"><strong>PT.Metro</strong> Cilegon</span>
+                                <i class="fa fa-home"></i><span class="sidebar-nav-mini-hide"><strong>PT.Metro</strong> Bekasi</span>
                             </a>
                             <!-- END Brand -->
 
@@ -89,12 +89,12 @@
                                 <li>
                                     <a href="<?=base_url()?>produk"><i class="gi gi-share_alt sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Daftar Produk</span></a>
                                 </li>
-                                <!-- <li>
+                                <li>
                                     <a href="<?=base_url()?>user/status"><i class="gi gi-film sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Konfirmasi Pemesanan</span></a>
-                                </li> -->
-                                <!-- <li>
-                                    <a href="<?=base_url()?>user/Bookingfee "><i class="gi gi-link sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Verifikasi Pembayaran</span></a>
-                                </li> -->
+                                </li>
+                                <li>
+                                    <a href="<?=base_url()?>user/bookingfee "><i class="gi gi-link sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Verifikasi Pembayaran</span></a>
+                                </li>
                                 <li>
                                     <a href="<?=base_url()?>keluar"><i class="fa fa-lock sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Keluar</span></a>
                                 </li>                                                 

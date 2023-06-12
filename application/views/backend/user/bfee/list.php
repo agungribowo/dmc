@@ -9,7 +9,7 @@
                                                 
                 <div class="form-group">
                     <label>Id Pembayaran</label>
-                    <input type="text" name="IdPembayaran" value="<?=$kodeunik?>" class="form-control" placeholder="Id Pembayaran">
+                    <input type="text" name="IdPembayaran" value="<?=$kodebook?>" class="form-control" placeholder="Id Pembayaran">
                 </div>
                 <div class="form-group">
                     <label>Id Pemesanan</label>

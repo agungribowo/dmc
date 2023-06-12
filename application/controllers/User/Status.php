@@ -46,7 +46,7 @@ class Status extends CI_Controller {
 
         } else {
             $data = array(
-                'kodeunik'   => $this->pemesanan->kodeotomatis()
+                'kodebook'   => $this->pemesanan->kodeotomatis()
             );
             $this->load->view('backend/user/kepala', $data);            
             $this->load->view('backend/user/dasbor');
@@ -54,8 +54,7 @@ class Status extends CI_Controller {
         }
     }
 
-
-    function detai() {
+    // function detail() {
         
-    }
+    // }
 }

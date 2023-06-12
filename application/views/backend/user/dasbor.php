@@ -10,9 +10,9 @@
             <li>
                 <a href="#"><i class="gi gi-shopping_cart"></i> Status</a>
             </li>
-            <!-- <li>
+            <li>
                 <a href="<?=base_url()?>user/Bookingfee "><i class="gi gi-shopping_bag"></i> Pembayaran</a>
-            </li>      -->                                                         
+            </li>                                                              
         </ul>
     </div>
                        

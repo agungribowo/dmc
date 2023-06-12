@@ -32,7 +32,7 @@
                         </tr>
                         <tr>
                             <td class="text-right"><strong>Status</strong></td>
-                            <td><?=$pemesanan['Status']?>?></td>
+                            <td><?=$pemesanan['Status']?></td>
                         </tr>    
                     </tbody>
                </table>

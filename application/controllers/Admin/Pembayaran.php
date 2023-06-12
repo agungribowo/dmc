@@ -41,7 +41,7 @@ class Pembayaran extends CI_Controller {
 
         } else {
             $data = array(
-                'kodeunik'   => $this->pembayaran->kodeotomatis()
+                'kodebook'   => $this->pembayaran->kodeotomatis()
             );
             $this->load->view('backend/admin/kepala', $data);            
             $this->load->view('backend/admin/pembayaran/tambah');

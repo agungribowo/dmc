@@ -27,8 +27,8 @@ class M_pembayaran extends CI_Model {
             }
         }else {
             $kd = "0001";
-        } $kodejadi = "B".$kd;
-            return $kodejadi;
+        } $kodebook = "B".$kd;
+            return $kodebook;
     }
 
     

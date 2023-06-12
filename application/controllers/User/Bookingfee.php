@@ -39,7 +39,7 @@ class Bookingfee extends CI_Controller {
 
         } else {
             $data = array(
-                'kodeunik'   => $this->pembayaran->kodeotomatis()
+                'kodebook'   => $this->pembayaran->kodeotomatis()
             );
             $this->load->view('backend/user/kepala', $data);            
             $this->load->view('backend/user/bfee/list');

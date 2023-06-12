@@ -21,7 +21,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label">Id Pembayaran</label>
                 <div class="col-md-3">
-                  <input type="text" name="IdPembayaran" value="<?=$kodeunik?>" class="form-control" >
+                  <input type="text" name="IdPembayaran" value="<?=$kodebook?>" class="form-control" >
                 </div>
             </div>
             <div class="form-group">
