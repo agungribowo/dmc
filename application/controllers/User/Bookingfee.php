@@ -7,12 +7,14 @@ class Bookingfee extends CI_Controller {
 	function __construct() {
         parent::__construct();        
         sesimasukAdmin();    
-        $this->load->model('M_pembayaran','pembayaran');      
+        $this->load->model('M_pembayaran','pembayaran');  
     }
 	
 
-	public function index()
-	{
+	public function index() {
+        $data = array(			
+            'pembayaran' => $this->pembayaran->data()
+		);
 		$this->load->view('backend/user/kepala');
 		$this->load->view('backend/user/bfee/list');
 		$this->load->view('backend/user/kaki');

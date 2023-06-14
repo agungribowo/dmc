@@ -89,12 +89,12 @@
                                 <li>
                                     <a href="<?=base_url()?>produk"><i class="gi gi-share_alt sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Daftar Produk</span></a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="<?=base_url()?>user/status"><i class="gi gi-film sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Konfirmasi Pemesanan</span></a>
                                 </li>
                                 <li>
                                     <a href="<?=base_url()?>user/bookingfee "><i class="gi gi-link sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Verifikasi Pembayaran</span></a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="<?=base_url()?>keluar"><i class="fa fa-lock sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Keluar</span></a>
                                 </li>                                                 
